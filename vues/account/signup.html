@@ -40,10 +40,16 @@
             <h2>Sign Up</h2>
             <p>Inscrivez-vous ici</p>
             <form action="/vues/account/login.html" method="post">
-                <input type="text" class="name" pattern="[a-z0-9]+" placeholder="@UserName*" required><br>
+                <input type="text" class="name" pattern="[a-Z_0-9]{4,8}" placeholder="@UserName*" required><br>
                 <input type="email" name="mail" placeholder="@Email*" required><br>
                 <input type="password" name="password" placeholder="Password*" required><br>
+                <select name="statut" id="statut">
+                    <optgroup label="Statut:"></optgroup>
+                    <option value="admin">Admin</option>
+                    <option value="eleve">Elève</option>
+                </select><br>
                 <input type="submit" value="Valider" class="submit">
+                
             </form>
             <div class="btn">
                 <button><a href="#"> Mot de passe oublié</a></button>
