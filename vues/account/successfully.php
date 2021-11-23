@@ -1,12 +1,10 @@
 
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <?php include_once('../templates/head.php'); ?>
-  </head>
+<?php
+session_start();
 
-  <body>
-    <?php include_once('../templates/header.php'); ?>
+require("../templates/head.php");
+require("../templates/header.php");
+?>
     <main id="main">
         OK
     </main>
