@@ -117,13 +117,13 @@ h1  {
   color: #fff;
 }
 
-/* ---------------PAGE INSCRIPTION-----------------*/
+/* ---------------MAIN-----------------*/
 
-.cont-sign {
+.cont {
   background-image: url("/assets/images/test.jpg");
   border-image-repeat: repeat;
   background-size: 84px;
-  height: 750px;
+  height: 850px;
   width: 700px;
   margin-top: 50px;
   box-shadow: 10px 5px 5px #ffddd2;
@@ -148,7 +148,7 @@ input {
   border: solid 2px;
   font-family: "Brush Script MT", cursive;
 }
-#statut{
+#user_type{
   font-family: "Brush Script MT", cursive;
   font-size: 30px;
   text-align: center;
@@ -208,4 +208,32 @@ tr:nth-child(2n+1){
 }
 tr:nth-child(2n){
   background-color: blue;
+}
+.accept{
+  font-family: "Brush Script MT", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+}
+select{
+  font-family: "Brush Script MT", cursive;
+  font-size: 20px;
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid 2px;
+  text-align: center;
+}
+
+#content{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Brush Script MT", cursive;
+  border-radius: 20px;
+  border: solid 2px;
+  height: 200px;
+  width: 400px;
+}
+select *{
+  border-radius: 20px;
 }

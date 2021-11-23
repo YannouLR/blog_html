@@ -14,28 +14,28 @@
 
 <body>
     <header>
-        <a href="/index.html">
+        <a href="/index.php">
             <h1 id="title">
                 Blog des vieux
             </h1>
         </a>
         <nav>
-            <a href="/vues/articles/articles.html">Articles</a>
+            <a href="/vues/articles/articles.php">Articles</a>
             <div class="subnav">
                 <button class="subnavbtn">
-                    <a href="/vues/articles/categories.html" >
+                    <a href="/vues/articles/categories.php" id="categorie">
                         Catégories
                     </a>
                 </button>
                 <div class="subnav-content">
-                    <a href="amelie.html">Amélie</a>
-                    <a href="adeline.html">Adeline</a>
+                    <a href="amelie.php">Amélie</a>
+                    <a href="adeline.php">Adeline</a>
                 </div>
             </div>
-            <a href="/vues/articles/add.html" id="add">Ajouter un article</a>
-            <a href="/vues/account/signup.html">Inscription</a>
-            <a href="/vues/account/login.html">Connexion</a>
-            <a href="/vues/account/logout.html">Déconnexion</a>
+            <a href="/vues/articles/add.php">Ajouter un article</a>
+            <a href="/vues/account/signup.php">Inscription</a>
+            <a href="/vues/account/login.php">Connexion</a>
+            <a href="/vues/account/logout.php">Déconnexion</a>
         </nav>
     </header>
 

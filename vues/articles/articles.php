@@ -12,13 +12,13 @@
 </head>
 <body>
     <header>
-        <a href="/index.html">
+        <a href="/index.php">
         <h1 id="title">      
                 Blog des vieux
         </h1>
     </a>
         <nav>
-            <a href="/vues/articles/articles.html" id="article">Articles</a>
+            <a href="/vues/articles/articles.php" id="article">Articles</a>
             <div class="subnav">
                 <button class="subnavbtn"><a href="/vues/articles/categories.html">Catégories <i class="fa fa-caret-down"></i></a></button>
                 <div class="subnav-content">
@@ -26,38 +26,15 @@
                     <a href="adeline.html">Adeline</a>
                 </div>
             </div>
-            <a href="/vues/articles/add.html">Ajouter un article</a>
-            <a href="/vues/account/signup.html">Inscription</a>
-            <a href="/vues/account/login.html">Connexion</a>
-            <a href="/vues/account/logout.html">Déconnexion</a>
+            <a href="/vues/articles/add.php">Ajouter un article</a>
+            <a href="/vues/account/signup.php">Inscription</a>
+            <a href="/vues/account/login.php">Connexion</a>
+            <a href="/vues/account/logout.php">Déconnexion</a>
         </nav>
     </header>
 
     <main id="main">
-        <table class="tableau">
-            <caption>Tableau</caption>
-            <tr>
-              <td>nom</td>
-              <td>age</td>
-              <td>pays</td>
-            </tr>
-            <tr>
-              <td>Breed</td>
-              <td>16</td>
-              <td>France</td>
-            </tr>
-            <tr>
-              <td>Jack</td>
-              <td>9</td>
-              <td>Pays-bas</td>
-            </tr>
-            <tr>
-              <td>Jean</td>
-              <td>40</td>
-              <td>Japon</td>
-            </tr>
-            
-          </table>
+      <
           
     </main>
 </body>
